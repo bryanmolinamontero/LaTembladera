@@ -1,9 +1,18 @@
+/*color verde oscuro #4DA02D */
+
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
 
 .header{
 background-image: url(/static/img/back-header.png);
 }
+.headerTitle{
+    padding-left:1px;
+    padding-top: 50px;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
 
+
+}
 h1,h2,h3,h4,h5,h6{
 font-family: "Oswald", sans-serif;
 font-weight:normal;
@@ -16,12 +25,12 @@ padding:3px 0px;
 
 body{
 
-border-top:3px solid #30add1;
+border-top:3px solid #A2C40F;
 }
 
 .barra{
     border-radius: 0px;
-    background-color: #30add1;
+    background-color: #005F9E;
     font-size: 14px;
 }
 
@@ -36,8 +45,8 @@ border-top:3px solid #30add1;
     padding-right:6.95%;
 }
 .borSlide{
-    border-top:3px solid #30add1;
-    border-bottom:3px solid #30add1;
+    border-top:3px solid #A2C40F;
+    border-bottom:3px solid #A2C40F;
 }
 
 
@@ -59,7 +68,7 @@ border-top:3px solid #30add1;
     border-radius: 15px;
 }
 .h2part{
-    color:#30add1 ;
+    color:#005F9E ;
 }
 
 footer{
