@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2464175220">
+    <data-source source="LOCAL" name="Django default" uuid="3153741a-8ffc-4830-9e9c-c247638cf085">
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\Programacion\LaTembladera\laTembladera\bd_tembladera</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
