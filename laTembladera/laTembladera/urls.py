@@ -17,4 +17,5 @@ urlpatterns = patterns('',
 
 
     url(r'^$', index),
+     url(r'^origen/$', origen),
 )

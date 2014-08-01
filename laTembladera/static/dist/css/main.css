@@ -130,3 +130,24 @@ footer .social a {
 	margin: 0;
 	margin-right: 3px;
 }
+
+
+#ex4 img {
+
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+}
+
+#ex4 img:hover {
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	-o-transform: rotate(-7deg);
+}
+
+
+.origen{
+    font-size: 100%;
+    color: #2C3E50;
+    text-align: justify;
+}
