@@ -86,43 +86,58 @@
 
 
     <br/>
-<!-- 3 columnas-->
-<div class="container cent">
-    <div class="row">
-{% comment %}
-        {% for i in datos %}
-            {{ i.id }}<br/>
-            {{ i.titulo }}<br/>
-            <img src="/media/{{ i.imagen }}"  alt=""/>
-            {{ i.contenido }}<br/>
-        {% endfor %}
-{% endcomment %}
-        <div class="col-lg-4 part">
-            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2 class="h2part">Heading Heading Heading Heading Heading Heading </h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-info" href="#" role="button">View details &raquo;</a></p>
-        </div>
-
-        <div class="col-lg-4 part">
-            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2 class="h2part">Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-info" href="#" role="button">View details &raquo;</a></p>
-        </div>
-
-        <div class="col-lg-4 part">
-            <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" style="width: 140px; height: 140px;">
-          <h2 class="h2part">Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-info" href="#" role="button">View details &raquo;</a></p>
-        </div>
-
-    </div>
-</div>
 
 
 {% endblock %}
+
+
+{% block contenido-md-8 %}
+<div class="row">
+    <div class="col-xs-12 well">well</div>
+
+</div>
+{% endblock %}
+
+{% block contenido-md-4 %}
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h1 class="panel-title" style="text-align: center">NOTICIAS</h1>
+        </div>
+        <div class="panel-body">
+        {% for i in noticias %}
+            <h3 style="text-align: center">{{ i.titulo }}</h3>
+            <br/>
+            <span class="label label-success">Fecha:</span>&nbsp;&nbsp;{{ i.fecha }}
+            <br/><br/>
+            <center><img class="img-responsive" src="/media/{{ i.imagen }}" width="75%" style="border-radius: 6px;" alt=""/></center>
+            <br/>
+            <p style="text-align: justify">
+            {{ i.contenido | truncatewords:20 | safe}} &nbsp; <a href="/ver_noticia/{{ i.id }}"><b>Leer mas...</b></a>
+            </p>
+            <hr/>
+            {% empty %}
+            <h2>No hay Noticias</h2>
+            {% endfor %}
+
+<h4 style="text-align: center">
+        {% if noticias.has_previous %}
+            <a href="?page={{ noticias.previous_page_number }}">Anterior</a>
+        {% endif %}
+
+         Página {{ noticias.number }} de {{ noticias.paginator.num_pages }}
+
+        {% if noticias.has_next %}
+             <a href="?page={{ noticias.next_page_number }}">Siguiente</a>
+        {% endif %}
+</h4>
+
+        </div>
+    </div>
+
+
+{% endblock %}
+
+
 
 {% block js %}
 
