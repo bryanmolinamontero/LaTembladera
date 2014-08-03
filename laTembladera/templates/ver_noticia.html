@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block contenido-md-8%}
+
+    <div class="row well">
+                    {{noticia.as_p}}
+                    <h3 class="well tituloNoticia">{{ noticia.titulo }}</h3>
+                    <form action="" method="GET" >{% csrf_token %}
+
+                        <table>
+
+                            <tr><td><label class="label label-primary">Fecha</label></td><td style=" font-size: x-small">{{ noticia.fecha }}</td></tr>
+                            <tr><td><label class="label label-primary"></label></td><td style="text-align: center"><center><img class="img img-responsive" style="border-radius: 6px;" src="/media/{{noticia.imagen}}" width="50%" ></center></td></tr>
+                            <tr><td><label class="label label-primary">Contenido</label></td>
+                            <tr><td></td><td style="text-align: justify;">{{ noticia.contenido | linebreaksbr }}</td></tr>
+                        </table>
+
+            </form>
+
+
+                </div>
+
+
+{% endblock %}
+
+
+{% block js %}
+    $("#inicio").removeClass("active");
+    $("#noticias").addClass("active");
+{% endblock %}

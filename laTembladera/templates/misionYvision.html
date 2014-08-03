@@ -1,22 +1,33 @@
+
+
 {% extends 'base.html' %}
 
-{% block contenido%}
+{% block contenido-md-8%}
 
-
-<div class="container cent">
-        <div class="row">
-
-            <div class="col-md-8 ">
-
-                {% block contenido2 %}
-
-                {% endblock %}
-
-            </div>
-
-
-
+    <div class="row well">
+        <h3 class="well titulo">Misión</h3>
+        <div class="col-sm-4"><img class="img img-responsive" src="/static/img/mision.png" alt=""/></div>
+        <div class="col-sm-8">
+            <p>
+            Somos una asociación de productores agro artesanales de las Comunas Ribereñas del cantón Santa Rosa, que mediante la producción, acopio, procesamiento, y distribución de especies agroforestales y acuícolas del sitio Ramsar La Tembladera; busca desarrollar su entorno social, económico, turístico y ambiental a nivel local basados en un enfoque ecosistémico y de calidad integral.
+            </p>
         </div>
-</div>
+    </div>
 
+    <hr/>
+
+    <div class="row well">
+        <h3 class="well titulo">Visión</h3>
+        <div class="col-sm-4"><img class="img img-responsive" src="/static/img/vision.png" alt=""/></div>
+        <div class="col-sm-8">
+            <p>
+            Ser líderes locales en el desarrollo sostenible del sitio Ramsar La Tembladera, pretendiendo alcanzar el mejoramiento continuo de la calidad en todos sus procesos con la finalidad de satisfacer totalmente a sus usuarios y clientes; para el año 2019.
+            </p>
+        </div>
+    </div>
+{% endblock %}
+
+{% block js %}
+    $("#inicio").removeClass("active");
+    $("#empresa").addClass("active");
 {% endblock %}

@@ -16,9 +16,22 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
-
-
     url(r'^$', index),
-    url(r'^misionYvision/$',misionYvision),
+    url(r'^index/$', index),
+
+    #EMPRESA
     url(r'^origen/$', origen),
+    url(r'^misionYvision/$',misionYvision),
+    url(r'^objetivos/$',objetivos),
+    url(r'^politicas/$',politicas),
+    url(r'^estructuraFuncional/$',estructuraFuncional),
+    url(r'^productos/$',productos),
+
+
+
+    #NOTICIAS
+    url(r'^ver_noticia/^', verNoticia),
+    url(r'^ver_noticia/(?P<id_noticia>.*)/$',ver_noticia,name="ver_noticia"),
+    url(r'^noticias/$', noticias), #ver todas las noticias
+
 )

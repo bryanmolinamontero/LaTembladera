@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>La Tembladera</title>
+    <title>..: ASOGROTEM :..</title>
     <link rel="shortcut icon" href="/static/img/logo.png" type="image/png" />
     <script type="text/javascript" src="/static/dist/js/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" href="/static/bootstrap/css/flatly.css">
@@ -56,18 +56,21 @@
       <ul class="nav navbar-nav">
         <li id="inicio" class="active"><a href="/">Inicio</a></li>
         <li id="origen"><a href="/origen/">Origen</a></li>
-        <li class="dropdown">
+        <li id="empresa" class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Empresa<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li class="misionYvision"><a href="/misionYvision/">Misión y Visión</a></li>
-            <li><a href="#">Políticas</a></li>
-            <li><a href="#">Estructura Funcional</a></li>
-            <li class="divider"></li>
+            <li class="objetivos"><a href="/objetivos/">Objetivos</a></li>
+            <li><a href="/politicas/">Políticas</a></li>
+            <li><a href="/estructuraFuncional/">Estructura Funcional</a></li>
+            <!--<li class="divider"></li>
             <li><a href="#">Separated link</a></li>
             <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="#">One more separated link</a></li>-->
           </ul>
         </li>
+        <li id="noticias"><a href="/noticias/">Noticias</a></li>
+        <li id="productos"><a href="/productos/">Productos</a></li>
       </ul>
 
 
@@ -90,6 +93,7 @@
                 {% endblock %}
             </div>
             <div class="col-md-4">
+
                 {% block contenido-md-4 %}
                 {% endblock %}
             </div>

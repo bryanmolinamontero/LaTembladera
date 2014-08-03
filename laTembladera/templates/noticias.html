@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block contenido-md-8 %}
+<div class="panel panel-primary">
+        <div class="panel-heading">
+        <h1 class="panel-title" style="text-align: center">NOTICIAS</h1>
+        </div>
+        <div class="panel-body">
+        {% for i in noticias %}
+            <h3 class="well" style="text-align: center">{{ i.titulo }}</h3>
+            <br/>
+            <span class="label label-success">Fecha:</span>&nbsp;&nbsp;{{ i.fecha }}
+            <br/><br/>
+            <center><img class="img-responsive" src="/media/{{ i.imagen }}" width="50%" style="border-radius: 6px;" alt=""/></center>
+            <br/>
+            <span class="label label-success">Contenido:</span>&nbsp;&nbsp;
+            <p style="text-align: justify">
+            {{ i.contenido | truncatewords:20 | safe}} &nbsp; <a href="/ver_noticia/{{ i.id }}"><b>Leer mas...</b></a>
+            </p>
+            <hr/>
+            {% empty %}
+            <h2>No hay Noticias</h2>
+            {% endfor %}
+
+<h4 style="text-align: center">
+        {% if noticias.has_previous %}
+            <a href="?page={{ noticias.previous_page_number }}">Anterior</a>
+        {% endif %}
+
+         Página {{ noticias.number }} de {{ noticias.paginator.num_pages }}
+
+        {% if noticias.has_next %}
+             <a href="?page={{ noticias.next_page_number }}">Siguiente</a>
+        {% endif %}
+</h4>
+
+        </div>
+    </div>
+
+
+
+{% endblock %}
+
+
+{% block js %}
+    $("#inicio").removeClass("active");
+    $("#noticias").addClass("active");
+{% endblock %}

@@ -157,3 +157,21 @@ footer .social a {
     color: #2C3E50;
     text-align: justify;
 }
+
+.tituloNoticia{
+    text-align: center;
+    background-color: white;
+}
+
+.titulo{
+    text-align: center;
+    background-color: white;
+}
+
+p{
+    text-align: justify;
+}
+
+.productos{
+    font-size: 17px;
+}

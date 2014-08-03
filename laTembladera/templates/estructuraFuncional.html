@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block contenido %}
+    <div class="container cent">
+        <div class="row">
+            <div class="col-xs-12 well">
+                <br/>
+                <h1 class="titulo well"> ESTRUCTURA FUNCIONAL</h1>
+
+                <img class="img-responsive" src="/static/img/organigrama.png" alt="" width="100%" style="border-radius: 5px"/>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block js %}
+    $("#inicio").removeClass("active");
+    $("#empresa").addClass("active");
+{% endblock %}
