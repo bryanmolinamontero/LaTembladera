@@ -89,4 +89,17 @@
 {% block js %}
     $("#inicio").removeClass("active");
     $("#productos").addClass("active");
+    			$(function() {
+
+				/*$('#da-slider').cslider({
+					autoplay	: true,
+					interval : 4000
+				});*/
+
+                $('.carousel').carousel({
+                    interval: 1500
+                });
+
+			});
+
 {% endblock %}
