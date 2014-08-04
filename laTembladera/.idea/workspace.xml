@@ -23,146 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="26" selection-start="2227" selection-end="2227" vertical-scroll-proportion="-1.3703704" vertical-offset="1025" max-vertical-offset="2808">
+            <state line="102" column="153" selection-start="3853" selection-end="3853" vertical-scroll-proportion="0.8443804" vertical-offset="1543" max-vertical-offset="2826">
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="84" selection-start="4029" selection-end="4029" vertical-scroll-proportion="-8.0" vertical-offset="1674" max-vertical-offset="3312">
-              <folding>
-                <element signature="e#2957#2993#0" expanded="true" />
-                <element signature="e#3082#3108#0" expanded="true" />
-                <element signature="e#3303#3329#0" expanded="true" />
-                <element signature="e#3610#3646#0" expanded="true" />
-                <element signature="e#3723#3749#0" expanded="true" />
-                <element signature="e#3958#3984#0" expanded="true" />
-                <element signature="e#4127#4152#0" expanded="true" />
-                <element signature="e#4595#4621#0" expanded="true" />
-                <element signature="e#4732#4758#0" expanded="true" />
-                <element signature="e#4993#5020#0" expanded="true" />
-                <element signature="e#5072#5099#0" expanded="true" />
-                <element signature="e#5346#5372#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="misionYvision.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/misionYvision.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1272" selection-end="1379" vertical-scroll-proportion="-9.37037" vertical-offset="269" max-vertical-offset="684">
-              <folding>
-                <marker date="1407011767454" expanded="true" signature="81:713" placeholder="..." />
-                <marker date="1407011767454" expanded="true" signature="262:702" placeholder="..." />
-                <marker date="1407011767454" expanded="true" signature="278:687" placeholder="..." />
-                <marker date="1407011767454" expanded="true" signature="752:1254" placeholder="..." />
-                <marker date="1407011767454" expanded="true" signature="933:1243" placeholder="..." />
-                <marker date="1407011767454" expanded="true" signature="949:1228" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="origen.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/origen.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="53.333332" vertical-offset="1512" max-vertical-offset="2826">
-              <folding>
-                <marker date="1407098345599" expanded="true" signature="78:8940" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="111:8924" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="191:507" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="550:8907" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="621:3141" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="675:1935" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="726:1622" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="903:1587" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="1673:1903" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="1989:3113" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="2040:2270" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="2321:3081" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="2416:3046" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="3204:6285" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="3257:4814" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="3308:4496" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="3488:3710" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="3799:4037" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="4088:4461" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="4547:4782" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="4868:6258" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="4919:5154" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="5205:6226" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="5300:5624" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="5675:6191" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="6348:8883" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="6402:7469" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="6453:7156" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="6620:7082" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="7207:7437" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="7523:8854" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="7574:7809" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="7860:8822" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="7955:8507" placeholder="..." />
-                <marker date="1407098345599" expanded="true" signature="8558:8786" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laTembladera/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="20" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="810">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tembladera/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="810">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="noticias.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/noticias.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="22" selection-start="54" selection-end="1401" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="954">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tembladera/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.023255814" vertical-offset="585" max-vertical-offset="1548">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="proyectos.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/proyectos.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="92" selection-start="648" selection-end="648" vertical-scroll-proportion="-4.4615383" vertical-offset="56" max-vertical-offset="864">
-              <folding>
-                <element signature="e#160#186#0" expanded="true" />
-                <element signature="e#312#338#0" expanded="true" />
-                <element signature="e#393#420#0" expanded="true" />
-                <element signature="e#625#649#0" expanded="true" />
-                <element signature="e#830#856#0" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,11 +56,11 @@
         <option value="$PROJECT_DIR$/static/dist/css/main.css" />
         <option value="$PROJECT_DIR$/templates/origen.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/laTembladera/urls.py" />
         <option value="$PROJECT_DIR$/tembladera/models.py" />
         <option value="$PROJECT_DIR$/templates/proyectos.html" />
         <option value="$PROJECT_DIR$/tembladera/views.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
@@ -573,7 +440,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -581,7 +448,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532943" sideWeight="0.67704916" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532943" sideWeight="0.67704916" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3229508" sideWeight="0.33674964" order="1" side_tool="true" content_ui="tabs" />
@@ -651,116 +518,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/origen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="53.333332" vertical-offset="1512" max-vertical-offset="2826">
-          <folding>
-            <marker date="1407098345599" expanded="true" signature="78:8940" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="111:8924" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="191:507" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="550:8907" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="621:3141" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="675:1935" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="726:1622" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="903:1587" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="1673:1903" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="1989:3113" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="2040:2270" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="2321:3081" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="2416:3046" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="3204:6285" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="3257:4814" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="3308:4496" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="3488:3710" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="3799:4037" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="4088:4461" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="4547:4782" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="4868:6258" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="4919:5154" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="5205:6226" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="5300:5624" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="5675:6191" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="6348:8883" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="6402:7469" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="6453:7156" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="6620:7082" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="7207:7437" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="7523:8854" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="7574:7809" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="7860:8822" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="7955:8507" placeholder="..." />
-            <marker date="1407098345599" expanded="true" signature="8558:8786" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="84" selection-start="4029" selection-end="4029" vertical-scroll-proportion="-8.0" vertical-offset="1674" max-vertical-offset="3312">
-          <folding>
-            <element signature="e#2957#2993#0" expanded="true" />
-            <element signature="e#3082#3108#0" expanded="true" />
-            <element signature="e#3303#3329#0" expanded="true" />
-            <element signature="e#3610#3646#0" expanded="true" />
-            <element signature="e#3723#3749#0" expanded="true" />
-            <element signature="e#3958#3984#0" expanded="true" />
-            <element signature="e#4127#4152#0" expanded="true" />
-            <element signature="e#4595#4621#0" expanded="true" />
-            <element signature="e#4732#4758#0" expanded="true" />
-            <element signature="e#4993#5020#0" expanded="true" />
-            <element signature="e#5072#5099#0" expanded="true" />
-            <element signature="e#5346#5372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="26" selection-start="2227" selection-end="2227" vertical-scroll-proportion="-1.3703704" vertical-offset="1025" max-vertical-offset="2808">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laTembladera/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="20" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.0" vertical-offset="157" max-vertical-offset="810">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/misionYvision.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1272" selection-end="1379" vertical-scroll-proportion="-9.37037" vertical-offset="269" max-vertical-offset="684">
-          <folding>
-            <marker date="1407011767454" expanded="true" signature="81:713" placeholder="..." />
-            <marker date="1407011767454" expanded="true" signature="262:702" placeholder="..." />
-            <marker date="1407011767454" expanded="true" signature="278:687" placeholder="..." />
-            <marker date="1407011767454" expanded="true" signature="752:1254" placeholder="..." />
-            <marker date="1407011767454" expanded="true" signature="933:1243" placeholder="..." />
-            <marker date="1407011767454" expanded="true" signature="949:1228" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laTembladera/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.5882353" vertical-offset="702" max-vertical-offset="2934">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/noticias.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="22" selection-start="54" selection-end="1401" vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="954">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tembladera/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.0" vertical-offset="368" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
@@ -780,8 +540,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tembladera/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.023255814" vertical-offset="585" max-vertical-offset="1548">
+        <state line="45" column="34" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.39534885" vertical-offset="585" max-vertical-offset="1548">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/noticias.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.05" vertical-offset="0" max-vertical-offset="954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tembladera/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1333" selection-end="1333" vertical-scroll-proportion="0.70053476" vertical-offset="368" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laTembladera/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="20" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.9431524" vertical-offset="157" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/origen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="55" selection-end="55" vertical-scroll-proportion="-4.149856" vertical-offset="1512" max-vertical-offset="2826">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/misionYvision.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="1272" selection-end="1379" vertical-scroll-proportion="0.7291066" vertical-offset="269" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="84" selection-start="4029" selection-end="4029" vertical-scroll-proportion="0.62247837" vertical-offset="1674" max-vertical-offset="3312">
+          <folding>
+            <element signature="e#2957#2993#0" expanded="true" />
+            <element signature="e#3082#3108#0" expanded="true" />
+            <element signature="e#3303#3329#0" expanded="true" />
+            <element signature="e#3610#3646#0" expanded="true" />
+            <element signature="e#3723#3749#0" expanded="true" />
+            <element signature="e#3958#3984#0" expanded="true" />
+            <element signature="e#4127#4152#0" expanded="true" />
+            <element signature="e#4595#4621#0" expanded="true" />
+            <element signature="e#4732#4758#0" expanded="true" />
+            <element signature="e#4993#5020#0" expanded="true" />
+            <element signature="e#5072#5099#0" expanded="true" />
+            <element signature="e#5346#5372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="153" selection-start="3853" selection-end="3853" vertical-scroll-proportion="0.8443804" vertical-offset="1543" max-vertical-offset="2826">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
