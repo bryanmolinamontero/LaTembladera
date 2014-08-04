@@ -77,6 +77,10 @@ border-top:3px solid #A2C40F;
     color:#005F9E ;
 }
 
+.h2block{
+    color:#4DA02D ;
+}
+
 footer{
 background:#222 url('/static/img/fback.png') repeat;
 margin-top:10px;
@@ -174,4 +178,9 @@ p{
 
 .productos{
     font-size: 17px;
+}
+
+.bloque{
+    background-image: url(/static/img/back-header.png);
+
 }

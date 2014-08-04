@@ -25,7 +25,11 @@ urlpatterns = patterns('',
     url(r'^objetivos/$',objetivos),
     url(r'^politicas/$',politicas),
     url(r'^estructuraFuncional/$',estructuraFuncional),
+
+
+
     url(r'^productos/$',productos),
+    url(r'^proyectos/$',proyectos),
 
 
 

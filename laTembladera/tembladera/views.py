@@ -40,6 +40,21 @@ def estructuraFuncional(request):
 def productos(request):
     return render_to_response('productos.html')
 
+def proyectos(request):
+    extraerProyectos=Proyectos.objects.all().order_by("-id")
+    paginator = Paginator(extraerProyectos, 3)
+    page = request.GET.get('page')
+    try:
+        proyectos = paginator.page(page)
+    except PageNotAnInteger:
+        # If page is not an integer, deliver first page.
+        proyectos = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+        proyectos = paginator.page(paginator.num_pages)
+    return render_to_response('proyectos.html', {"proyectos":proyectos})
+
+
 
 def verNoticia(request):
     return HttpResponseRedirect('/index/')
