@@ -30,6 +30,7 @@ urlpatterns = patterns('',
 
     url(r'^productos/$',productos),
     url(r'^proyectos/$',proyectos),
+    url(r'^galeria/$',galeria),
 
 
 

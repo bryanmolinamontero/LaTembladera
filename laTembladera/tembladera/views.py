@@ -55,6 +55,8 @@ def proyectos(request):
     return render_to_response('proyectos.html', {"proyectos":proyectos})
 
 
+def galeria(request):
+    return render_to_response('galeria.html')
 
 def verNoticia(request):
     return HttpResponseRedirect('/index/')

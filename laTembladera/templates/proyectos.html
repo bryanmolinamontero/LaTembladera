@@ -37,6 +37,14 @@
 
 {% endblock %}
 
+
+{% block contenido-md-4 %}
+    <a href="/galeria/"><img style="border-radius: 5px" class="img img-responsive" src="/static/img/galeria.gif" alt=""/></a>
+    <br/>
+    <div align="center"><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Flatembladera%3Ffref%3Dts&amp;width=310&amp;height=490&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:310px; height:490px;" allowTransparency="true"></iframe></div>
+{% endblock %}
+
+
 {% block js %}
     $("#inicio").removeClass("active");
     $("#proyectos").addClass("active");
