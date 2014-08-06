@@ -58,6 +58,9 @@ def proyectos(request):
 def galeria(request):
     return render_to_response('galeria.html')
 
+def florayfauna(request):
+    return render_to_response('florayfauna.html')
+
 def verNoticia(request):
     return HttpResponseRedirect('/index/')
 
