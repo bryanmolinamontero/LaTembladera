@@ -1,6 +1,7 @@
 # Create your views here.
+from django.core.mail import EmailMultiAlternatives
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 from tembladera.models import *
@@ -61,6 +62,9 @@ def galeria(request):
 def florayfauna(request):
     return render_to_response('florayfauna.html')
 
+def contacto(request):
+    return render_to_response('contacto.html')
+
 def verNoticia(request):
     return HttpResponseRedirect('/index/')
 
@@ -87,3 +91,67 @@ def noticias(request):
         # If page is out of range (e.g. 9999), deliver last page of results.
         noticias = paginator.page(paginator.num_pages)
     return render_to_response('noticias.html', {"noticias":noticias})
+
+
+
+emisor = "bryanux@hotmail.com"
+destinatario = "bryanux@hotmail.com"
+
+
+def enviarCorreo(request):
+    if request.method=='POST':
+
+        nombre =  request.POST['txtNombre']
+        correo =  request.POST['txtCorreo']
+        telefono =  request.POST['txtTelefono']
+        mensaje =  request.POST['txtContenidoMensaje']
+
+        subject = 'CONTACTO'
+        text_content = 'Mensaje...nLinea 2nLinea3'
+
+        html_content = '<b>' \
+                       'ASOGROTEM </br></br>' \
+                       'Nombres: %s </br></br>' \
+                       'Correo: %s </br></br>' \
+                       'Telefono: %s </br></br>' \
+                       'Mensaje: %s </br></br>' \
+                       '</b>' % (nombre , correo, telefono, mensaje)
+        from_email = '"ASOGROTEM" <%s>' % emisor
+        to = destinatario
+        msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+        msg.attach_alternative(html_content, "text/html")
+        msg.send()
+
+        return HttpResponseRedirect('/contacto/')
+    else:
+        return HttpResponseRedirect('/contacto/')
+
+
+
+def enviarCorreo2(request):
+    if request.method=='POST':
+
+        nombre =  request.GET['nombre']
+        correo =  request.GET['correo']
+        telefono =  request.GET['telefono']
+        mensaje =  request.GET['mensaje']
+
+        subject = 'CONTACTO'
+        text_content = 'Mensaje...nLinea 2nLinea3'
+
+        html_content = '<b>' \
+                       'ASOGROTEM </br></br>' \
+                       'Nombres: %s </br></br>' \
+                       'Correo: %s </br></br>' \
+                       'Telefono: %s </br></br>' \
+                       'Mensaje: %s </br></br>' \
+                       '</b>' % (nombre , correo, telefono, mensaje)
+        from_email = '"ASOGROTEM" <%s>' % emisor
+        to = destinatario
+        msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+        msg.attach_alternative(html_content, "text/html")
+        msg.send()
+
+        return HttpResponse("SU MENSAJE HA SIDO ENVIADO")
+    else:
+        return HttpResponseRedirect('/contacto/')

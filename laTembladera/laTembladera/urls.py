@@ -32,6 +32,8 @@ urlpatterns = patterns('',
     url(r'^proyectos/$',proyectos),
     url(r'^galeria/$',galeria),
     url(r'^florayfauna/$',florayfauna),
+    url(r'^contacto/$',contacto),
+    url(r'^enviarCorreo/$',enviarCorreo2),
 
 
 

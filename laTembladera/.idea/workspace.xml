@@ -23,40 +23,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="50" selection-start="4388" selection-end="4388" vertical-scroll-proportion="-9.807693" vertical-offset="1326" max-vertical-offset="2924">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laTembladera/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="22" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="799">
+            <state line="35" column="40" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0" vertical-offset="458" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="florayfauna.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/florayfauna.html">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laTembladera/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="19" selection-start="5907" selection-end="5907" vertical-scroll-proportion="0.26934096" vertical-offset="1997" max-vertical-offset="2601">
+            <state line="101" column="1" selection-start="3755" selection-end="3755" vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3078">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tembladera/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="156" column="4" selection-start="5161" selection-end="5161" vertical-scroll-proportion="0.0" vertical-offset="2420" max-vertical-offset="2916">
               <folding>
-                <element signature="e#5937#5963#0" expanded="true" />
-                <element signature="e#6340#6404#0" expanded="true" />
+                <element signature="e#26#77#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/dist/css/main.css">
+      <file leaf-file-name="contacto.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/contacto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="185" column="1" selection-start="2581" selection-end="2581" vertical-scroll-proportion="0.0" vertical-offset="2859" max-vertical-offset="3247">
+            <state line="103" column="7" selection-start="4146" selection-end="4146" vertical-scroll-proportion="-9.555555" vertical-offset="1596" max-vertical-offset="2034">
+              <folding>
+                <element signature="e#3032#3058#0" expanded="true" />
+                <element signature="e#3435#3499#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="157" column="30" selection-start="5917" selection-end="5917" vertical-scroll-proportion="0.3275862" vertical-offset="2712" max-vertical-offset="3114">
               <folding />
             </state>
           </provider>
@@ -72,9 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/politicas.html" />
-        <option value="$PROJECT_DIR$/templates/estructuraFuncional.html" />
-        <option value="$PROJECT_DIR$/static/dist/css/main.css" />
         <option value="$PROJECT_DIR$/tembladera/models.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/origen.html" />
@@ -84,18 +92,21 @@
         <option value="$PROJECT_DIR$/templates/productos.html" />
         <option value="$PROJECT_DIR$/templates/proyectos.html" />
         <option value="$PROJECT_DIR$/templates/galeria.html" />
+        <option value="$PROJECT_DIR$/templates/florayfauna.html" />
+        <option value="$PROJECT_DIR$/static/dist/css/main.css" />
+        <option value="$PROJECT_DIR$/laTembladera/settings.py" />
         <option value="$PROJECT_DIR$/laTembladera/urls.py" />
+        <option value="$PROJECT_DIR$/templates/contacto.html" />
         <option value="$PROJECT_DIR$/tembladera/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/florayfauna.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1374" />
-    <option name="height" value="732" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -123,7 +134,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -194,52 +204,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laTembladera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laTembladera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laTembladera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laTembladera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="laTembladera" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -502,7 +473,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1374" height="732" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -510,11 +481,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532943" sideWeight="0.67757773" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532943" sideWeight="0.6786885" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32242227" sideWeight="0.33674964" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32242227" sideWeight="0.6632504" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32131147" sideWeight="0.33674964" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32131147" sideWeight="0.6632504" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -537,157 +508,108 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/fancybox/lib/jquery-1.9.0.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/9.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/9t.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="4" selection-start="4493" selection-end="4614" vertical-scroll-proportion="0.5272206" vertical-offset="1856" max-vertical-offset="3179">
-          <folding>
-            <element signature="e#4518#4544#0" expanded="true" />
-            <element signature="e#4727#4753#0" expanded="true" />
-            <element signature="e#4864#4890#0" expanded="true" />
-            <element signature="e#5125#5152#0" expanded="true" />
-            <element signature="e#5204#5231#0" expanded="true" />
-            <element signature="e#5478#5504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/origen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="149" column="125" selection-start="9132" selection-end="9132" vertical-scroll-proportion="0.6103152" vertical-offset="2320" max-vertical-offset="2805">
-          <folding>
-            <element signature="e#9036#9062#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/misionYvision.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="125" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.6103152" vertical-offset="297" max-vertical-offset="748">
-          <folding>
-            <element signature="e#1328#1354#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/proyectos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="125" selection-start="1411" selection-end="1411" vertical-scroll-proportion="-3.6153846" vertical-offset="603" max-vertical-offset="952">
-          <folding>
-            <element signature="e#1315#1341#0" expanded="true" />
-            <element signature="e#1718#1782#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/objetivos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="125" selection-start="2605" selection-end="2605" vertical-scroll-proportion="0.6103152" vertical-offset="705" max-vertical-offset="1156">
-          <folding>
-            <element signature="e#915#942#0" expanded="true" />
-            <element signature="e#2509#2535#0" expanded="true" />
-            <element signature="e#2912#2976#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/productos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="125" selection-start="0" selection-end="4232" vertical-scroll-proportion="0.41547278" vertical-offset="1317" max-vertical-offset="1955">
-          <folding>
-            <element signature="e#3381#3407#0" expanded="true" />
-            <element signature="e#3784#3848#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/noticias.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="125" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.50143266" vertical-offset="590" max-vertical-offset="1003">
-          <folding>
-            <element signature="e#156#182#0" expanded="true" />
-            <element signature="e#306#332#0" expanded="true" />
-            <element signature="e#567#594#0" expanded="true" />
-            <element signature="e#722#749#0" expanded="true" />
-            <element signature="e#996#1022#0" expanded="true" />
-            <element signature="e#1477#1503#0" expanded="true" />
-            <element signature="e#1880#1944#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/galeria.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.048710603" vertical-offset="408" max-vertical-offset="1105">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#4;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#6;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#7;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#8;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#9;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#10;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#11;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tembladera/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="24" selection-start="1947" selection-end="1947" vertical-scroll-proportion="0.4742268" vertical-offset="768" max-vertical-offset="1547">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="50" selection-start="4388" selection-end="4388" vertical-scroll-proportion="-9.807693" vertical-offset="1326" max-vertical-offset="2924">
+        <state line="93" column="42" selection-start="3403" selection-end="3403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2826">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laTembladera/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="22" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="799">
+        <state line="33" column="0" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="1" selection-start="2581" selection-end="2581" vertical-scroll-proportion="0.0" vertical-offset="2859" max-vertical-offset="3247">
+        <state line="185" column="1" selection-start="2581" selection-end="2581" vertical-scroll-proportion="0.0" vertical-offset="3330" max-vertical-offset="3438">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/florayfauna.html">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="19" selection-start="5907" selection-end="5907" vertical-scroll-proportion="0.26934096" vertical-offset="1997" max-vertical-offset="2601">
+        <state line="120" column="4" selection-start="4493" selection-end="4614" vertical-scroll-proportion="0.5272206" vertical-offset="1856" max-vertical-offset="3179" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/origen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="125" selection-start="9132" selection-end="9132" vertical-scroll-proportion="0.6103152" vertical-offset="2320" max-vertical-offset="2805" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/proyectos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="125" selection-start="1411" selection-end="1411" vertical-scroll-proportion="-3.6153846" vertical-offset="603" max-vertical-offset="952" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/objetivos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="125" selection-start="2605" selection-end="2605" vertical-scroll-proportion="0.6103152" vertical-offset="705" max-vertical-offset="1156" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/productos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="125" selection-start="0" selection-end="4232" vertical-scroll-proportion="0.41547278" vertical-offset="1317" max-vertical-offset="1955" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/noticias.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="125" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.50143266" vertical-offset="590" max-vertical-offset="1003" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/misionYvision.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="0" selection-end="1960" vertical-scroll-proportion="0.86494255" vertical-offset="311" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/dist/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="1" selection-start="2644" selection-end="2644" vertical-scroll-proportion="0.9072165" vertical-offset="3140" max-vertical-offset="3600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laTembladera/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="40" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0" vertical-offset="458" max-vertical-offset="882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laTembladera/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="1" selection-start="3755" selection-end="3755" vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3078">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tembladera/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="4" selection-start="5161" selection-end="5161" vertical-scroll-proportion="0.0" vertical-offset="2420" max-vertical-offset="2916">
           <folding>
-            <element signature="e#5937#5963#0" expanded="true" />
-            <element signature="e#6340#6404#0" expanded="true" />
+            <element signature="e#26#77#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contacto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="7" selection-start="4146" selection-end="4146" vertical-scroll-proportion="-9.555555" vertical-offset="1596" max-vertical-offset="2034">
+          <folding>
+            <element signature="e#3032#3058#0" expanded="true" />
+            <element signature="e#3435#3499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="30" selection-start="5917" selection-end="5917" vertical-scroll-proportion="0.3275862" vertical-offset="2712" max-vertical-offset="3114">
+          <folding />
         </state>
       </provider>
     </entry>
