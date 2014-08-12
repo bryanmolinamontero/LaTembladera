@@ -11,9 +11,9 @@ MANAGERS = ADMINS
 
 
 EMAIL_HOST = 'smtp-mail.outlook.com'
-EMAIL_HOST_USER = 'bryanux@hotmail.com'
-EMAIL_HOST_PASSWORD = '19thelinuxforce'
-EMAIL_PORT = 587
+EMAIL_HOST_USER = 'CORREO@hotmail.com'
+EMAIL_HOST_PASSWORD = 'CONTRASENIA'
+EMAIL_PORT = 25 # 587
 EMAIL_USE_TLS = True
 
 

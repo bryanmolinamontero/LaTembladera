@@ -94,43 +94,12 @@ def noticias(request):
 
 
 
-emisor = "bryanux@hotmail.com"
-destinatario = "bryanux@hotmail.com"
-
-
-def enviarCorreo(request):
-    if request.method=='POST':
-
-        nombre =  request.POST['txtNombre']
-        correo =  request.POST['txtCorreo']
-        telefono =  request.POST['txtTelefono']
-        mensaje =  request.POST['txtContenidoMensaje']
-
-        subject = 'CONTACTO'
-        text_content = 'Mensaje...nLinea 2nLinea3'
-
-        html_content = '<b>' \
-                       'ASOGROTEM </br></br>' \
-                       'Nombres: %s </br></br>' \
-                       'Correo: %s </br></br>' \
-                       'Telefono: %s </br></br>' \
-                       'Mensaje: %s </br></br>' \
-                       '</b>' % (nombre , correo, telefono, mensaje)
-        from_email = '"ASOGROTEM" <%s>' % emisor
-        to = destinatario
-        msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
-        msg.attach_alternative(html_content, "text/html")
-        msg.send()
-
-        return HttpResponseRedirect('/contacto/')
-    else:
-        return HttpResponseRedirect('/contacto/')
-
-
+emisor = "CORREO@hotmail.com"
+destinatario = "CORREO@hotmail.com"
 
 def enviarCorreo2(request):
-    if request.method=='POST':
-
+    if request.GET:
+     try:
         nombre =  request.GET['nombre']
         correo =  request.GET['correo']
         telefono =  request.GET['telefono']
@@ -151,7 +120,8 @@ def enviarCorreo2(request):
         msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
         msg.attach_alternative(html_content, "text/html")
         msg.send()
-
         return HttpResponse("SU MENSAJE HA SIDO ENVIADO")
+     except Exception as ex:
+         return HttpResponse("CATCH")
     else:
         return HttpResponseRedirect('/contacto/')

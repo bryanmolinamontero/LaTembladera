@@ -27,7 +27,6 @@ urlpatterns = patterns('',
     url(r'^estructuraFuncional/$',estructuraFuncional),
 
 
-
     url(r'^productos/$',productos),
     url(r'^proyectos/$',proyectos),
     url(r'^galeria/$',galeria),

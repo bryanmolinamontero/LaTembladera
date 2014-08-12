@@ -26,16 +26,16 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laTembladera/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="40" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0" vertical-offset="458" max-vertical-offset="882">
+            <state line="34" column="31" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="864">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laTembladera/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="1" selection-start="3755" selection-end="3755" vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3078">
+            <state line="13" column="25" selection-start="225" selection-end="225" vertical-scroll-proportion="0.624" vertical-offset="0" max-vertical-offset="3078">
               <folding />
             </state>
           </provider>
@@ -44,10 +44,8 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tembladera/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="4" selection-start="5161" selection-end="5161" vertical-scroll-proportion="0.0" vertical-offset="2420" max-vertical-offset="2916">
-              <folding>
-                <element signature="e#26#77#0" expanded="true" />
-              </folding>
+            <state line="97" column="23" selection-start="3161" selection-end="3161" vertical-scroll-proportion="0.0" vertical-offset="1602" max-vertical-offset="2286">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,19 +53,28 @@
       <file leaf-file-name="contacto.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/contacto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="7" selection-start="4146" selection-end="4146" vertical-scroll-proportion="-9.555555" vertical-offset="1596" max-vertical-offset="2034">
+            <state line="33" column="26" selection-start="970" selection-end="970" vertical-scroll-proportion="-0.6666667" vertical-offset="576" max-vertical-offset="2052">
               <folding>
-                <element signature="e#3032#3058#0" expanded="true" />
-                <element signature="e#3435#3499#0" expanded="true" />
+                <element signature="e#2860#2886#0" expanded="true" />
+                <element signature="e#3263#3327#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="30" selection-start="5917" selection-end="5917" vertical-scroll-proportion="0.3275862" vertical-offset="2712" max-vertical-offset="3114">
+            <state line="73" column="33" selection-start="3223" selection-end="3223" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="3114">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-1.11.1.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/dist/js/jquery-1.11.1.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="0" selection-end="95786" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -94,11 +101,11 @@
         <option value="$PROJECT_DIR$/templates/galeria.html" />
         <option value="$PROJECT_DIR$/templates/florayfauna.html" />
         <option value="$PROJECT_DIR$/static/dist/css/main.css" />
-        <option value="$PROJECT_DIR$/laTembladera/settings.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/laTembladera/urls.py" />
         <option value="$PROJECT_DIR$/templates/contacto.html" />
         <option value="$PROJECT_DIR$/tembladera/views.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/laTembladera/settings.py" />
       </list>
     </option>
   </component>
@@ -484,8 +491,8 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532943" sideWeight="0.6786885" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32131147" sideWeight="0.33674964" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32131147" sideWeight="0.6632504" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32131147" sideWeight="0.33674964" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32131147" sideWeight="0.6632504" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -508,13 +515,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="42" selection-start="3403" selection-end="3403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2826">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laTembladera/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="1074" selection-end="1074" vertical-scroll-proportion="0.0" vertical-offset="594" max-vertical-offset="846">
@@ -566,49 +566,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/dist/js/jquery-1.11.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="0" selection-end="95786" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="33" selection-start="3223" selection-end="3223" vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="3114">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/dist/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="1" selection-start="2644" selection-end="2644" vertical-scroll-proportion="0.9072165" vertical-offset="3140" max-vertical-offset="3600">
+        <state line="188" column="0" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.63013697" vertical-offset="3016" max-vertical-offset="3600">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laTembladera/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="40" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0" vertical-offset="458" max-vertical-offset="882">
+        <state line="34" column="31" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="864">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contacto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="26" selection-start="970" selection-end="970" vertical-scroll-proportion="-0.6666667" vertical-offset="576" max-vertical-offset="2052">
+          <folding>
+            <element signature="e#2860#2886#0" expanded="true" />
+            <element signature="e#3263#3327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tembladera/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="23" selection-start="3161" selection-end="3161" vertical-scroll-proportion="0.0" vertical-offset="1602" max-vertical-offset="2286">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laTembladera/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="1" selection-start="3755" selection-end="3755" vertical-scroll-proportion="0.0" vertical-offset="2703" max-vertical-offset="3078">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tembladera/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="4" selection-start="5161" selection-end="5161" vertical-scroll-proportion="0.0" vertical-offset="2420" max-vertical-offset="2916">
-          <folding>
-            <element signature="e#26#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/contacto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="7" selection-start="4146" selection-end="4146" vertical-scroll-proportion="-9.555555" vertical-offset="1596" max-vertical-offset="2034">
-          <folding>
-            <element signature="e#3032#3058#0" expanded="true" />
-            <element signature="e#3435#3499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="30" selection-start="5917" selection-end="5917" vertical-scroll-proportion="0.3275862" vertical-offset="2712" max-vertical-offset="3114">
+        <state line="13" column="25" selection-start="225" selection-end="225" vertical-scroll-proportion="0.624" vertical-offset="0" max-vertical-offset="3078">
           <folding />
         </state>
       </provider>

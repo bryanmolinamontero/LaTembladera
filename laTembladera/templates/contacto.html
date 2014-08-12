@@ -14,18 +14,15 @@
 
                         <label >Nuestra oficina principal (Ecuador):</label>
                         <br/>
-                        {{ i.oficina }}<label for="">&nbsp;</label>
+                        DIRECCION<label for="">&nbsp;</label>
                         <br/>
-                        <label>C.P.:&nbsp;</label>{{ i.cp }}
+                        <label>Mail:&nbsp;</label><a href="mailto:asogrotem@hotmail.com">asogrotem@hotmail.com</a>
                         <br/>
-                        <label>Mail:&nbsp;</label><a href="mailto:{{ i.mail }}">{{ i.mail }}</a>
+                        <label>​​Cel:&nbsp;</label>0993800991
                         <br/>
-                        <label>​​Tel:&nbsp;</label>{{ i.tel }}
+                        <label>Cel:&nbsp;</label>0981770089
                         <br/>
-                        <label>Fax:&nbsp;</label>{{ i.fax }}
-                        <br/>
-                        <label>Cel.:&nbsp;</label>{{ i.cel }}
-                        <br/>
+
 
 
                     </p>
@@ -99,6 +96,10 @@
         success: function(data){
             var html = "<h3>"+data+"</h3>";
             $('#mensajeEnviado').html(html);
+            document.getElementById("nombreId").value='';
+            document.getElementById("correoId").value='';
+            document.getElementById("telefonoId").value='';
+            document.getElementById("mensajeId").value='';
          }
 
     });
