@@ -18,6 +18,7 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', index),
     url(r'^index/$', index),
+    #url(r'^base2/$', base2),
 
     #EMPRESA
     url(r'^origen/$', origen),

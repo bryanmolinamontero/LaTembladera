@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>..: ASOGROTEM :..</title>
+    <title>..: otra base :..</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/static/img/logo.png" type="image/png" />
     <script type="text/javascript" src="/static/dist/js/jquery-1.11.1.min.js"></script>
@@ -12,12 +12,6 @@
     <link rel="stylesheet" href="/static/dist/css/blue.css">
     <script type="text/javascript" src="/static/dist/js/main.js"></script>
     <script src="/static/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/static/dist/js/jquery.sticky.js"></script>
-<script>
-    $(window).load(function(){
-      $("#header").sticky({ topSpacing: 0 });
-    });
-  </script>
 
     {% block scripts %}
 
@@ -36,45 +30,40 @@
 
     {% endblock %}
 
-    <style>
-        #header {
-
-      color: white;
-
-      font-size: 18px;
-      line-height: 1.6em;
-      font-weight: bold;
-      text-align: center;
-
-      text-shadow: 0 1px 1px rgba(0,0,0,.2);
-      width:100%;
-      box-sizing:border-box;
-    }
-    </style>
-
 </head>
 <body>
 <div class="header">
-
+    <br/><br/><br/>
 <div class="container cent">
+
+
     <div class="row">
+
         <div class="col-md-6 col-sm-6">
+
             <div class="row" >
             <center><div id="ex4" class="col-md-4" style=" padding-top: 10px; padding-bottom: 10px;"><a href="/"> <img class="img-responsive" src="/static/img/logo.png" alt=""/></a></div></center>
             <div class="col-md-8 headerTitle visible-md visible-lg">ASOGROTEM</div>
             <div class="col-md-8 visible-sm visible-xs" style="text-align: center"><h1>ASOGROTEM</h1></div>
+
             </div>
+
         </div>
+
+</div>
+</div>
+
+
+<div class=" navbar navbar-default navbar-fixed-top">
+<div class="navbar-header">
+    <h1>hola</h1>
     </div>
 </div>
-</div>
+<nav class="navbar navbar-inverse barra navbar-fixed-top" role="navigation">
 
-<div id="header" style="width:100%;z-index: 1">
-
-<nav class="navbar navbar-inverse barra" role="navigation">
   <div class="container cent">
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header" >
+    <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -114,9 +103,8 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-
 </div>
-<br/>
+
 {% block contenido %}
 
 
