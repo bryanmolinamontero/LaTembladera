@@ -11,8 +11,8 @@ MANAGERS = ADMINS
 
 
 EMAIL_HOST = 'smtp-mail.outlook.com'
-EMAIL_HOST_USER = 'CORREO@hotmail.com'
-EMAIL_HOST_PASSWORD = 'CONTRASENIA'
+EMAIL_HOST_USER = 'asogrotem@hotmail.com'
+EMAIL_HOST_PASSWORD = 'RodrigoGastiabur'
 EMAIL_PORT = 25 # 587
 EMAIL_USE_TLS = True
 

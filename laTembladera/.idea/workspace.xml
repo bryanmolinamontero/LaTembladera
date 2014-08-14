@@ -26,22 +26,35 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1526" selection-end="1526" vertical-scroll-proportion="-5.3333335" vertical-offset="756" max-vertical-offset="3312">
-              <folding>
-                <element signature="e#4369#4395#0" expanded="true" />
-              </folding>
+            <state line="50" column="0" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="3312">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="31" selection-start="3104" selection-end="3104" vertical-scroll-proportion="0.1724138" vertical-offset="1254" max-vertical-offset="3384">
-              <folding>
-                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="73" column="31" selection-start="3104" selection-end="3104" vertical-scroll-proportion="-0.0" vertical-offset="1314" max-vertical-offset="3384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laTembladera/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="3078">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tembladera/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="122" column="0" selection-start="3960" selection-end="3960" vertical-scroll-proportion="0.3041237" vertical-offset="1988" max-vertical-offset="2574">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/index2.html" />
-        <option value="$PROJECT_DIR$/templates/base2.html" />
         <option value="$PROJECT_DIR$/static/dist/js/jquery.sticky.js" />
         <option value="$PROJECT_DIR$/static/dist/css/main.css" />
         <option value="$PROJECT_DIR$/laTembladera/urls.py" />
@@ -72,6 +83,8 @@
         <option value="$PROJECT_DIR$/templates/ver_noticia.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/laTembladera/settings.py" />
+        <option value="$PROJECT_DIR$/tembladera/views.py" />
       </list>
     </option>
   </component>
@@ -107,6 +120,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -135,7 +149,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="tembladera" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -170,10 +184,6 @@
               <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -185,43 +195,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laTembladera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laTembladera" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laTembladera" />
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../FundacionSocialEmmanuel/proyectoFundacion" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -326,27 +317,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="laTembladera" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -372,7 +343,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="laTembladera" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -514,20 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tembladera/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="25" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.46391752" vertical-offset="648" max-vertical-offset="2574">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laTembladera/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="3078">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/contacto.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="0" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.82758623" vertical-offset="1206" max-vertical-offset="2088">
@@ -583,11 +560,7 @@
     <entry file="file://$PROJECT_DIR$/templates/politicas.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <folding>
-            <marker date="1407017365573" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407017365573" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1407017365573" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -631,20 +604,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1526" selection-end="1526" vertical-scroll-proportion="-5.3333335" vertical-offset="756" max-vertical-offset="3312">
-          <folding>
-            <element signature="e#4369#4395#0" expanded="true" />
-          </folding>
+        <state line="50" column="0" selection-start="1526" selection-end="1526" vertical-scroll-proportion="0.0" vertical-offset="756" max-vertical-offset="3312">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="31" selection-start="3104" selection-end="3104" vertical-scroll-proportion="0.1724138" vertical-offset="1254" max-vertical-offset="3384">
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="73" column="31" selection-start="3104" selection-end="3104" vertical-scroll-proportion="0.0" vertical-offset="1314" max-vertical-offset="3384">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laTembladera/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="3078">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tembladera/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="0" selection-start="3960" selection-end="3960" vertical-scroll-proportion="0.3041237" vertical-offset="1988" max-vertical-offset="2574">
+          <folding />
         </state>
       </provider>
     </entry>

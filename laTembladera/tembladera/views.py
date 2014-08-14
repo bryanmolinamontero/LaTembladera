@@ -110,8 +110,8 @@ def noticias(request):
 
 
 
-emisor = "CORREO@hotmail.com"
-destinatario = "CORREO@hotmail.com"
+emisor = "asogrotem@hotmail.com"
+destinatario = "asogrotem@hotmail.com"
 
 def enviarCorreo2(request):
     if request.GET:
@@ -121,7 +121,7 @@ def enviarCorreo2(request):
         telefono =  request.GET['telefono']
         mensaje =  request.GET['mensaje']
 
-        subject = 'CONTACTO'
+        subject = 'NUEVO CORREO DE SITIO WEB'
         text_content = 'Mensaje...nLinea 2nLinea3'
 
         html_content = '<b>' \
