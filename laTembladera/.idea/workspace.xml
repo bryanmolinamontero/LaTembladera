@@ -32,12 +32,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="158" column="10" selection-start="5924" selection-end="5924" vertical-scroll-proportion="0.5689655" vertical-offset="2646" max-vertical-offset="3204">
+            <state line="160" column="9" selection-start="5935" selection-end="5935" vertical-scroll-proportion="-8.666667" vertical-offset="2646" max-vertical-offset="3204">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="galeria.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/galeria.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.35820895" vertical-offset="468" max-vertical-offset="1260">
               <folding>
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,7 +58,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laTembladera/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="3078">
+            <state line="18" column="0" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="3078">
               <folding />
             </state>
           </provider>
@@ -55,7 +67,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tembladera/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="28" selection-start="4216" selection-end="4216" vertical-scroll-proportion="0.0" vertical-offset="1990" max-vertical-offset="2574">
+            <state line="129" column="28" selection-start="4216" selection-end="4216" vertical-scroll-proportion="0.0" vertical-offset="2322" max-vertical-offset="2664">
               <folding />
             </state>
           </provider>
@@ -71,7 +83,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/static/dist/js/jquery.sticky.js" />
         <option value="$PROJECT_DIR$/static/dist/css/main.css" />
         <option value="$PROJECT_DIR$/laTembladera/urls.py" />
         <option value="$PROJECT_DIR$/templates/contacto.html" />
@@ -87,6 +98,7 @@
         <option value="$PROJECT_DIR$/laTembladera/settings.py" />
         <option value="$PROJECT_DIR$/tembladera/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/galeria.html" />
       </list>
     </option>
   </component>
@@ -151,7 +163,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tembladera" />
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -473,11 +489,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532943" sideWeight="0.6786885" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13689604" sideWeight="0.7672131" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32131147" sideWeight="0.33674964" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32131147" sideWeight="0.6632504" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23278688" sideWeight="0.33674964" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23278688" sideWeight="0.6632504" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -500,11 +516,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laTembladera/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="786" selection-end="786" vertical-scroll-proportion="0.32474226" vertical-offset="198" max-vertical-offset="882" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/contacto.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="0" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.82758623" vertical-offset="1206" max-vertical-offset="2088" />
@@ -583,9 +594,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="158" column="10" selection-start="5924" selection-end="5924" vertical-scroll-proportion="0.5689655" vertical-offset="2646" max-vertical-offset="3204">
+        <state line="160" column="9" selection-start="5935" selection-end="5935" vertical-scroll-proportion="-8.666667" vertical-offset="2646" max-vertical-offset="3204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/galeria.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.35820895" vertical-offset="468" max-vertical-offset="1260">
           <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
